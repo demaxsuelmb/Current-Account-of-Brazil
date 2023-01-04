@@ -4,9 +4,10 @@
 Transações Correntes
 Este é um projeto sobre o comportamento das transações correntes no Brazil do período de .
 Conceito: A rubrica de transações correntes agrega os seguintes itens: 
-•	balança comercial (bens), 
-•	serviços, 
-•	renda primária e 
+
+•	balança comercial (bens);
+•	serviços;
+•	renda primária;
 •	renda secundária.
 
 Para tanto estarei descrevendo o que são cada conceito e referenciando com a suas respectivas fontes de dados.
