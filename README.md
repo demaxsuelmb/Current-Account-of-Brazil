@@ -13,9 +13,9 @@ Para tanto estarei descrevendo o que são cada conceito e referenciando com a su
 Estarei utilizando 5 datasets para explicar o comportamento geral das transações correntes  no Brasil. 
 Essas são as fontes de dados:
 •	transações correntes:
-o	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22701-transacoes-correntes---mensal---saldo
-o	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22701
-o	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22701/dados?formato=json
+-	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22701-transacoes-correntes---mensal---saldo;
+-	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22701;
+-	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22701/dados?formato=json
 
 •	balança comercial (bens) Saldo:
 o	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22707-balanca-comercial---balanco-de-pagamentos---mensal---saldo
