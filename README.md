@@ -18,28 +18,21 @@ Essas são as fontes de dados:
 -	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22701/dados?formato=json
 
 •	balança comercial (bens) Saldo:
-o	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22707-balanca-comercial---balanco-de-pagamentos---mensal---saldo
-o	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22707
-o	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22707/dados?formato=json
+-	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22707-balanca-comercial---balanco-de-pagamentos---mensal---saldo;
+-	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22707;
+-	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22707/dados?formato=json
 
 •	Serviços:
-o	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22719-servicos---mensal---liquido
-o	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22719
-o	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22719/dados?formato=json
+-	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22719-servicos---mensal---liquido;
+-	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22719;
+-	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22719/dados?formato=json
 
 •	renda primária:
-o	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22800-renda-primaria---mensal---liquido
-o	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22800
-o	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22800/dados?formato=json
+-	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22800-renda-primaria---mensal---liquido;
+-	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22800;
+-	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22800/dados?formato=json
 
 •	renda secundária:
-o	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22838-renda-secundaria---mensal---liquido
-o	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22838
-o	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22838/dados?formato=json
-
-
-
-
-
-
-
+-	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22838-renda-secundaria---mensal---liquido;
+-	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22838;
+-	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22838/dados?formato=json
