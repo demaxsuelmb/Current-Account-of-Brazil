@@ -38,4 +38,4 @@ Essas são as fontes de dados:
 -	Conjunto: https://dadosabertos.bcb.gov.br/dataset/22838-renda-secundaria---mensal---liquido;
 -	Metadados:  https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=22838;
 -	Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.22838/dados?formato=json
-.
+..
