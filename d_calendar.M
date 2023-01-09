@@ -41,7 +41,7 @@ let
     PreviousMonth = Table.AddColumn ( PreviousWeek, "PreviousMonth", each Date.IsInPreviousMonth ( [Data] ), type logical ),
     PreviousQuarter = Table.AddColumn ( PreviousMonth, "PreviousQuarter", each Date.IsInPreviousQuarter ( [Data] ), type logical ),
     PreviousYear = Table.AddColumn ( PreviousQuarter, "PreviousYear", each Date.IsInPreviousYear ( [Data] ), type logical ),
-//next
+//nextDates
     NextDay = Table.AddColumn ( PreviousYear, "NextDay", each Date.IsInNextDay ( [Data] ), type logical ),
     NextWeek = Table.AddColumn ( NextDay, "NextWeek", each Date.IsInNextWeek ( [Data] ), type logical ),
     NextMonth = Table.AddColumn ( NextWeek, "NextMonth", each Date.IsInNextMonth ( [Data] ), type logical ),
