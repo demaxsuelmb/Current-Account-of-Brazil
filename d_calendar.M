@@ -2,9 +2,9 @@ let
     //Datas iniciais e finais                                                                                                                                                                               
     DataMin = Date.FromText ( "1995-01-01" ),
     DataMax = List.Max(f_currentAccount[data]),
-//Quantidade de Dias                                                                                                                                            
+//accounts days
     QtdeDias = Duration.Days ( DataMax - DataMin ) + 1,
-// Gerar Lista e converter
+// generater list
     ListDatas = List.Dates ( DataMin, QtdeDias, #duration ( 1, 0, 0, 0 ) ),
     #"Convertido para Tabela" = Table.FromList ( ListDatas, Splitter.SplitByNothing(), null, null, ExtraValues.Error ),
     #"Tipo Alterado" = Table.TransformColumnTypes ( #"Convertido para Tabela", { { "Column1", type date } } ),
