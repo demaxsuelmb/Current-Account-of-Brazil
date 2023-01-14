@@ -18,7 +18,7 @@ df_ca = pd.read_csv(currenteAccount_url, sep=sep_ca)
 
 # PrimaryIncome
 # The location of the file which is to be retrieved using this function.
-primaryIncome_url = "https://github.com/demaxsuelmb/Current-Account-of-Brazil/blob/main/bases/rendaPrimaria.csv"
+primaryIncome_url = "https://raw.githubusercontent.com/demaxsuelmb/Current-Account-of-Brazil/main/bases/rendaPrimaria.csv"
 
 # It stands for separator
 sep_pi = ';'
