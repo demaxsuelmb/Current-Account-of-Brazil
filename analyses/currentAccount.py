@@ -17,7 +17,6 @@ df_ca = pd.read_csv(currenteAccount_url, sep=sep_ca)
 print("currentAccount")
 print(df_ca)
 
-
 # PrimaryIncome
 # The location of the file which is to be retrieved using this function.
 primaryIncome_url = "https://raw.githubusercontent.com/demaxsuelmb/Current-Account-of-Brazil/main/bases/rendaPrimaria.csv"
@@ -28,7 +27,6 @@ df_pi = pd.read_csv(primaryIncome_url, sep=sep_pi)
 # print the data to verify if the data was correct
 print("primaryIncome")
 print(df_pi)
-
 
 # SecondIncome
 # The location of the file which is to be retrieved using this function.
@@ -41,7 +39,6 @@ df_si = pd.read_csv(secondIncome_url, sep=sep_si)
 print("secondIncome")
 print(df_si)
 
-
 # Services
 # The location of the file which is to be retrieved using this function.
 services_url = "https://raw.githubusercontent.com/demaxsuelmb/Current-Account-of-Brazil/main/bases/servicos.csv"
@@ -52,3 +49,11 @@ df_s = pd.read_csv(services_url, sep=sep_s)
 # print the data to verify if the data was correct 
 print("service")
 print(df_s)
+
+# rename columns
+df_ca =  df_ca.rename(columns={'data': 'date', 'valor': 'currentAccount'})
+
+print(df_ca.describe())
+
+
+print(df_ca.head())
