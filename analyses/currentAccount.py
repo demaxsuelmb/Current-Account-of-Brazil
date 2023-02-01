@@ -50,8 +50,4 @@ print("service")
 # rename columns
 df_ca =  df_ca.rename(columns={'data': 'date', 'valor': 'currentAccount'})
 
-print("insert in dataset")
-
-df_ca.to_csv(r'C:\Users\demax\Documents\GitHub\meusProjetos\CurrentAccount\df_ca.csv', index=None, header=True)
-
-
+# merge dataframes to a only df
