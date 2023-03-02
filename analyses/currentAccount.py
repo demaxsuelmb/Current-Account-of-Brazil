@@ -78,10 +78,13 @@ df = pd.merge(df_ca, df_pi, how="left", on=["date"])
 print(df.head())
 
 # merge secondIncome
-df = pd.merge(df_ca, df_si, how="left", on=["date"])
+df = pd.merge(df, df_si, how="left", on=["date"])
 print(df.head())
 
 # merge service
-df = pd.merge(df_ca, df_s, how="left", on=["date"])
+df = pd.merge(df, df_s, how="left", on=["date"])
 print(df.head())
 
+print(df.info())
+
+print(type(df))
