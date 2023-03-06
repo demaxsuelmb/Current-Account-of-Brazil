@@ -88,3 +88,4 @@ print(df.head())
 print(df.info())
 
 print(type(df))
+
