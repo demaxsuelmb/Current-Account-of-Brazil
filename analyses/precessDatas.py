@@ -49,8 +49,8 @@ df = pd.read_csv(currenteAccount_url, sep=sep_ca)
 ## copy and view data
 # ## view
 
-vw = df.view
-print(vw)
+# vw = df.view
+# print(vw)
 # vw = vw[::50]
 
 # print('Original data')
@@ -58,3 +58,17 @@ print(vw)
 
 # print('View data')
 # print(vw.head)
+
+
+a = np.array([[1,2,3,4],[9,0,2,3],[1,2,3,19]])  
+print('array a')
+print(a)
+
+print('view')
+b = a.view()
+b = b[:-1]
+print('array b')
+print(b)
+
+# print('original')
+# print(a)
