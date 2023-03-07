@@ -13,7 +13,7 @@ sep_ca = ';'
 df = pd.read_csv(currenteAccount_url, sep=sep_ca)
 
 ## type
-print(type(df))
+# print(type(df))
 
 ## access elements in df
 ## top 4
@@ -31,12 +31,30 @@ print(type(df))
 
 ## check the type of an Array
 # print('check the type')
-# print(df.dtype)
+# print(df.dtypes)
+
+## copy and view data
+## copy
+# cp = df.copy()
+# cp = cp[::50]
+
+# print('Original data')
+# print(df.head)
+
+# print('Copy data')
+# print(cp.head)
 
 
-arr = np.array(['apple', 'banana', 'cherry'])
 
-print(arr.dtype)
+## copy and view data
+# ## view
 
+vw = df.view
+print(vw)
+# vw = vw[::50]
 
-#.dtype)
+# print('Original data')
+# print(df.head)
+
+# print('View data')
+# print(vw.head)
