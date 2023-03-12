@@ -24,7 +24,6 @@ df = pd.read_csv(currenteAccount_url, sep=sep_ca)
 # print('last 3')
 # print(df[-3:])
 
-
 ## Every other element multple
 # print('others elemets multiple')
 # print(df[::10])
@@ -44,8 +43,6 @@ df = pd.read_csv(currenteAccount_url, sep=sep_ca)
 # print('Copy data')
 # print(cp.head)
 
-
-
 ## copy and view data
 # ## view
 
@@ -59,16 +56,22 @@ df = pd.read_csv(currenteAccount_url, sep=sep_ca)
 # print('View data')
 # print(vw.head)
 
+# arr = np.array([[1,2,3,4],[9,0,2,3],[1,2,3,19]])  
+# print('array=')
+# # print(arr)
 
-a = np.array([[1,2,3,4],[9,0,2,3],[1,2,3,19]])  
-print('array a')
-print(a)
+# x = arr.copy()
+# arr[0]= 42
+# print('o arr x:')
+# print(x)
+# print('o arr=')
+# print(arr)
 
-print('view')
-b = a.view()
-b = b[:-1]
-print('array b')
-print(b)
+## NumPy Array Shape
+print(df.shape)
 
-# print('original')
-# print(a)
+
+## NumPy Array Reshaping
+
+newdf = df.reshape(67,5,2)
+print(newdf)
